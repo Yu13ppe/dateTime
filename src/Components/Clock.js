@@ -35,7 +35,7 @@ function Clock() {
             setAmPm("PM")
             abbreviationDay(nowDay)
         } else {
-            setHour(addZeros(nowHour))
+            setHour(nowHour)
             setAmPm("AM")
             abbreviationDay(nowDay)
         }
